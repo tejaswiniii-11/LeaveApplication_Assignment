@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DBConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/leave_management";
     private static final String USER = "root";
-    private static final String PASSWORD = "#Teju@2003";
+    private static final String PASSWORD = "#########";
 
     static {
         try {
@@ -21,3 +21,4 @@ public class DBConnection {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 }
+
