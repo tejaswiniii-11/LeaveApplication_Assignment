@@ -12,7 +12,7 @@ import java.util.Map;
 public class LeaveService {
     private EmployeeLeaveDao leaveDao;
 
-    // Inject DAO with DB connection
+
     public LeaveService(Connection connection) {
         this.leaveDao = new EmployeeLeaveDao(connection);
     }
@@ -32,12 +32,9 @@ public class LeaveService {
 
     public Map<String, Integer> getRemainingLeaves(int userId) {
         Map<String, Integer> remaining = new HashMap<>();
-//        // Example logic (you will replace with DB query):
-//        remaining.put("Casual Leave", 5);
-//        remaining.put("Sick Leave", 7);
-//        remaining.put("Earned Leave", 10);
 
         return remaining;
     }
 
 }
+
