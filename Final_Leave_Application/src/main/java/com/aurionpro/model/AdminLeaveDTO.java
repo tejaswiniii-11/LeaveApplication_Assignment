@@ -7,9 +7,9 @@ public class AdminLeaveDTO {
 
 	private int leaveId;
 	private int userId;
-	private String username; // Employee name
+	private String username;
 	private int leaveTypeId;
-	private String leaveTypeName; // Leave type name
+	private String leaveTypeName; 
 	private LocalDate startDate;
 	private LocalDate endDate;
 	private String status;
@@ -88,3 +88,4 @@ public class AdminLeaveDTO {
 		this.appliedOn = appliedOn;
 	}
 }
+
