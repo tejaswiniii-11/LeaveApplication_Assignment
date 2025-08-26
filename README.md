@@ -149,7 +149,33 @@ http://localhost:8080/<project_name>/login.jsp
 
 ## Screenshots
 
-*(Add screenshots of your login page, employee dashboard, admin dashboard, and leave table here)*
+<img width="959" height="536" alt="image" src="https://github.com/user-attachments/assets/64651528-7cdc-41f7-8a47-0443e7cf23e9" />
+
+<img width="953" height="532" alt="image" src="https://github.com/user-attachments/assets/5116e806-8a48-4ba3-9a66-a760647bfa91" />
+
+<img width="958" height="532" alt="image" src="https://github.com/user-attachments/assets/a305be41-34dc-4098-9497-85bfecee3d72" />
+
+<img width="958" height="515" alt="image" src="https://github.com/user-attachments/assets/9c35cf67-e8ff-4915-9157-ae6bfa5ea5f9" />
+
+<img width="957" height="533" alt="image" src="https://github.com/user-attachments/assets/324e01b9-31d7-4feb-a8db-71b5b078729e" />
+
+<img width="956" height="311" alt="image" src="https://github.com/user-attachments/assets/e4d67cc2-90b8-4824-87fe-9930bff7b31d" />
+
+<img width="958" height="536" alt="image" src="https://github.com/user-attachments/assets/d56856c6-094e-40ca-a2ce-9dfed97e5aa6" />
+
+<img width="959" height="531" alt="image" src="https://github.com/user-attachments/assets/d39aab01-c260-4e6f-97bc-bb665fee465b" />
+
+<img width="959" height="534" alt="image" src="https://github.com/user-attachments/assets/22740ff4-ce12-4ef1-bc2a-190a23950dfe" />
+
+<img width="959" height="343" alt="image" src="https://github.com/user-attachments/assets/9bf48b1b-38a3-484f-9169-8bc3e35d7dc8" />
+
+<img width="959" height="248" alt="image" src="https://github.com/user-attachments/assets/26a7096e-3c1e-47a6-b5e1-43fffd90afaa" />
+
+<img width="959" height="533" alt="image" src="https://github.com/user-attachments/assets/f324fcd2-a3a3-4dd2-8de9-0a4d83110a4c" />
+
+<img width="957" height="535" alt="image" src="https://github.com/user-attachments/assets/97a246b5-ace6-4832-9b4b-44b491224700" />
+
+
 
 ---
 
