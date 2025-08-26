@@ -15,7 +15,7 @@ public class EmployeeLeaveDao {
         this.connection = connection;
     }
 
- // Apply leave with constraints in query itself (with YYYY-MM-DD format)
+ /
     public boolean applyLeave(int userId, int leaveTypeId, Date startDate, Date endDate) {
         String sql =
             "INSERT INTO leaves (user_id, leave_type_id, start_date, end_date, status) " +
@@ -112,3 +112,4 @@ public class EmployeeLeaveDao {
     }
 
 }
+
