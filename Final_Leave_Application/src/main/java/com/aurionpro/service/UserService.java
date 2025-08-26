@@ -16,7 +16,8 @@ public class UserService {
         if (username == null || password == null || role == null) {
             return null;
         }
-        // add extra validations if needed
+       
         return userDao.validateUser(username, password, role);
     }
 }
+
