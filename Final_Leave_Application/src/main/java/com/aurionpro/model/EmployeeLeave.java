@@ -6,7 +6,7 @@ public class EmployeeLeave {
     private int leaveId;
     private int userId;
     private int leaveTypeId;
-    private String leaveTypeName;   // For displaying CASUAL, PRIVILEGED etc.
+    private String leaveTypeName;  
     private Date startDate;
     private Date endDate;
     private String status;
@@ -92,3 +92,4 @@ public class EmployeeLeave {
     
     
 }
+
