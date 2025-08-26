@@ -31,7 +31,7 @@ public class RemainingLeavesServlet extends HttpServlet {
 
         int userId = (int) req.getSession().getAttribute("userId");
 
-        // Assuming LeaveService returns a Map now
+       
         Map<String, Integer> remainingLeaves = leaveService.getRemainingLeaves(userId);
 
         req.setAttribute("remainingLeaves", remainingLeaves);
@@ -39,3 +39,4 @@ public class RemainingLeavesServlet extends HttpServlet {
     }
 
 }
+
