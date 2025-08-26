@@ -17,7 +17,6 @@ public class AdminLeaveService {
     }
 
 
-    // 1️⃣ View all leaves
     public List<AdminLeaveDTO> viewAllLeaves() {
         try {
             return adminLeaveDao.getAllLeaves();
@@ -27,7 +26,7 @@ public class AdminLeaveService {
         }
     }
 
-    // 2️⃣ View leaves by status (PENDING, APPROVED, REJECTED)
+ 
     public List<AdminLeaveDTO> viewLeavesByStatus(String status) {
         try {
             return adminLeaveDao.getLeavesByStatus(status);
@@ -37,7 +36,7 @@ public class AdminLeaveService {
         }
     }
 
-    // 3️⃣ Approve a leave
+  
     public boolean approveLeave(int leaveId) {
         try {
             return adminLeaveDao.updateLeaveStatus(leaveId, "APPROVED");
@@ -47,7 +46,7 @@ public class AdminLeaveService {
         }
     }
 
-    // 4️⃣ Reject a leave
+
     public boolean rejectLeave(int leaveId) {
         try {
             return adminLeaveDao.updateLeaveStatus(leaveId, "REJECTED");
@@ -57,3 +56,4 @@ public class AdminLeaveService {
         }
     }
 }
+
