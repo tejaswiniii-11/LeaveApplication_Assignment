@@ -38,7 +38,7 @@ public class AdminLeaveServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        // Get action parameter from request
+      
         String action = request.getParameter("action");
         List<AdminLeaveDTO> leaves;
 
@@ -57,17 +57,17 @@ public class AdminLeaveServlet extends HttpServlet {
                 } else {
                     leaveService.rejectLeave(leaveId);
                 }
-                // After action, show updated pending leaves
+               
                 leaves = leaveService.viewLeavesByStatus("PENDING");
             } else {
-                // Default to all leaves if unknown action
+                
                 leaves = leaveService.viewAllLeaves();
             }
 
-            // Set leaves list in request scope
+         
             request.setAttribute("leaves", leaves);
 
-            // Forward to JSP
+         
             RequestDispatcher dispatcher = request.getRequestDispatcher("leaves-list.jsp");
             dispatcher.forward(request, response);
 
@@ -80,7 +80,8 @@ public class AdminLeaveServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // Forward POST requests to doGet
+       
         doGet(request, response);
     }
 }
+
