@@ -19,7 +19,7 @@
             </tr>
         </thead>
         <tbody>
-            <!-- Iterate over map entrySet -->
+           
             <c:forEach var="entry" items="${remainingLeaves}">
                 <tr>
                     <td>${entry.key}</td>
@@ -32,3 +32,4 @@
 
 </body>
 </html>
+
