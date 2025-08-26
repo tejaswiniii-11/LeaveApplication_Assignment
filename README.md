@@ -157,7 +157,8 @@ http://localhost:8080/<project_name>/login.jsp
 
 <img width="958" height="515" alt="image" src="https://github.com/user-attachments/assets/9c35cf67-e8ff-4915-9157-ae6bfa5ea5f9" />
 
-<img width="957" height="533" alt="image" src="https://github.com/user-attachments/assets/324e01b9-31d7-4feb-a8db-71b5b078729e" />
+<img width="956" height="535" alt="image" src="https://github.com/user-attachments/assets/766f9864-47bd-4805-85a0-c27d0a017d05" />
+
 
 <img width="956" height="311" alt="image" src="https://github.com/user-attachments/assets/e4d67cc2-90b8-4824-87fe-9930bff7b31d" />
 
