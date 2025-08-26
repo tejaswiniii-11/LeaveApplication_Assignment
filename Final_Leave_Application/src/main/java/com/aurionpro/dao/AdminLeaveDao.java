@@ -15,7 +15,7 @@ public class AdminLeaveDao {
     }
 
 
-    // 1️⃣ Fetch all leaves with username and leave type name
+ 
     public List<AdminLeaveDTO> getAllLeaves() {
         List<AdminLeaveDTO> leaves = new ArrayList<>();
         String query = "SELECT l.leave_id, l.user_id, u.username, l.leave_type_id, lt.type_name, " +
@@ -40,7 +40,7 @@ public class AdminLeaveDao {
                 leave.setAppliedOn(rs.getTimestamp("applied_on"));
                 leaves.add(leave);
             }
-            System.out.println(leaves.size()); // Should be > 0
+            System.out.println(leaves.size()); 
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -48,7 +48,7 @@ public class AdminLeaveDao {
         return leaves;
     }
 
-    // 2️⃣ Fetch leaves by status (PENDING, APPROVED, REJECTED)
+   
     public List<AdminLeaveDTO> getLeavesByStatus(String status) {
         List<AdminLeaveDTO> leaves = new ArrayList<>();
         String query = "SELECT l.leave_id, l.user_id, u.username, l.leave_type_id, lt.type_name, " +
@@ -83,7 +83,7 @@ public class AdminLeaveDao {
         return leaves;
     }
 
-    // 3️⃣ Update leave status (approve/reject)
+
     public boolean updateLeaveStatus(int leaveId, String status) {
         String query = "UPDATE leaves SET status = ? WHERE leave_id = ?";
         try (PreparedStatement ps = connection.prepareStatement(query)) {
@@ -97,3 +97,4 @@ public class AdminLeaveDao {
         }
     }
 }
+
